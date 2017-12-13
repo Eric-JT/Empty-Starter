@@ -12,6 +12,14 @@ GULP.task("prefix", function () {
   .pipe(GULP.dest('./'));
 });
 
+/**
+ * copy normalize from node_modules to project root
+ * $ gulp get-normalize
+ */
+GULP.task("get-normalize", function() {
+  return GULP.src('node_modules/normalize.css/normalize.css')
+  .pipe(GULP.dest('./'));
+});
 
 /*
 * Watch folders for changes
