@@ -9,6 +9,7 @@ Empty Starter
 
 [Gulp](http://gulpjs.com/)
 [Autoprefix](https://www.npmjs.com/package/gulp-autoprefixer)
+[Normalize](https://necolas.github.io/normalize.css/)
 
 
 ## System Preparation
@@ -29,6 +30,10 @@ To use this project, you'll need the following software installed on your machin
 
 On save gulp overrides the style.css file with a new version containing vender prefixes.
 
+To use normalize
+```shell
+$ gulp get-normalize
+```
 
 In project root
 ```shell
